@@ -6,7 +6,7 @@
 
 
 <img src="" width="1000" height="1000/">
-<h2>Project Screenshots:</h2>![Beige Minimalist Mood Photo Collage](https://github.com/Omar61554/FAI_ros2_TurtleDraw/assets/114437079/a2067945-fb11-456b-9b7b-f993fc1b28d0)
+<h2>Project Screenshots:</h2>(https://github.com/Omar61554/FAI_ros2_TurtleDraw/assets/114437079/a2067945-fb11-456b-9b7b-f993fc1b28d0)
 
 <h2>🛠️ Steps:</h2>
 
