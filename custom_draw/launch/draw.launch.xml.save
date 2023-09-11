@@ -1,0 +1,7 @@
+<launch>
+  <node pkg="custom_draw" type="shapeNode.py" name="shape_node" output="screen">
+  </node>
+
+  <node pkg="custom_draw" type="turtle_commander.py" name="turtle_commander" output="screen">
+  </node>
+</launch>
