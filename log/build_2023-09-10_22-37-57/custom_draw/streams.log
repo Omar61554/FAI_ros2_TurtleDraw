@@ -1,0 +1,25 @@
+[0.639s] Invoking command in '/home/omark/turtle_draw/src/custom_draw': PYTHONPATH=/home/omark/turtle_draw/build/custom_draw/prefix_override:/home/omark/turtle_draw/install/custom_draw/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/custom_draw build --build-base /home/omark/turtle_draw/build/custom_draw/build install --record /home/omark/turtle_draw/build/custom_draw/install.log --single-version-externally-managed
+[0.885s] running egg_info
+[0.886s] writing ../../build/custom_draw/custom_draw.egg-info/PKG-INFO
+[0.886s] writing dependency_links to ../../build/custom_draw/custom_draw.egg-info/dependency_links.txt
+[0.886s] writing entry points to ../../build/custom_draw/custom_draw.egg-info/entry_points.txt
+[0.887s] writing requirements to ../../build/custom_draw/custom_draw.egg-info/requires.txt
+[0.887s] writing top-level names to ../../build/custom_draw/custom_draw.egg-info/top_level.txt
+[0.888s] reading manifest file '../../build/custom_draw/custom_draw.egg-info/SOURCES.txt'
+[0.889s] writing manifest file '../../build/custom_draw/custom_draw.egg-info/SOURCES.txt'
+[0.889s] running build
+[0.889s] running build_py
+[0.889s] copying custom_draw/shapeNode.py -> /home/omark/turtle_draw/build/custom_draw/build/lib/custom_draw
+[0.889s] running install
+[0.889s] running install_lib
+[0.890s] copying /home/omark/turtle_draw/build/custom_draw/build/lib/custom_draw/shapeNode.py -> /home/omark/turtle_draw/install/custom_draw/lib/python3.10/site-packages/custom_draw
+[0.891s] byte-compiling /home/omark/turtle_draw/install/custom_draw/lib/python3.10/site-packages/custom_draw/shapeNode.py to shapeNode.cpython-310.pyc
+[0.891s] running install_data
+[0.892s] running install_egg_info
+[0.894s] removing '/home/omark/turtle_draw/install/custom_draw/lib/python3.10/site-packages/custom_draw-0.0.0-py3.10.egg-info' (and everything under it)
+[0.894s] Copying ../../build/custom_draw/custom_draw.egg-info to /home/omark/turtle_draw/install/custom_draw/lib/python3.10/site-packages/custom_draw-0.0.0-py3.10.egg-info
+[0.895s] running install_scripts
+[0.912s] Installing shape_node script to /home/omark/turtle_draw/install/custom_draw/lib/custom_draw
+[0.912s] Installing turtle_commander script to /home/omark/turtle_draw/install/custom_draw/lib/custom_draw
+[0.912s] writing list of installed files to '/home/omark/turtle_draw/build/custom_draw/install.log'
+[0.933s] Invoked command in '/home/omark/turtle_draw/src/custom_draw' returned '0': PYTHONPATH=/home/omark/turtle_draw/build/custom_draw/prefix_override:/home/omark/turtle_draw/install/custom_draw/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/custom_draw build --build-base /home/omark/turtle_draw/build/custom_draw/build install --record /home/omark/turtle_draw/build/custom_draw/install.log --single-version-externally-managed

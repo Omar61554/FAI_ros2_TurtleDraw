@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/custom_draw/custom_draw.egg-info
+writing ../../build/custom_draw/custom_draw.egg-info/PKG-INFO
+writing dependency_links to ../../build/custom_draw/custom_draw.egg-info/dependency_links.txt
+writing entry points to ../../build/custom_draw/custom_draw.egg-info/entry_points.txt
+writing requirements to ../../build/custom_draw/custom_draw.egg-info/requires.txt
+writing top-level names to ../../build/custom_draw/custom_draw.egg-info/top_level.txt
+writing manifest file '../../build/custom_draw/custom_draw.egg-info/SOURCES.txt'
+reading manifest file '../../build/custom_draw/custom_draw.egg-info/SOURCES.txt'
+writing manifest file '../../build/custom_draw/custom_draw.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/omark/turtle_draw/build/custom_draw/build
+creating /home/omark/turtle_draw/build/custom_draw/build/lib
+creating /home/omark/turtle_draw/build/custom_draw/build/lib/custom_draw
+copying custom_draw/__init__.py -> /home/omark/turtle_draw/build/custom_draw/build/lib/custom_draw
+running install
+running install_lib
+creating /home/omark/turtle_draw/install/custom_draw/lib/python3.10/site-packages/custom_draw
+copying /home/omark/turtle_draw/build/custom_draw/build/lib/custom_draw/__init__.py -> /home/omark/turtle_draw/install/custom_draw/lib/python3.10/site-packages/custom_draw
+byte-compiling /home/omark/turtle_draw/install/custom_draw/lib/python3.10/site-packages/custom_draw/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/omark/turtle_draw/install/custom_draw/share/ament_index
+creating /home/omark/turtle_draw/install/custom_draw/share/ament_index/resource_index
+creating /home/omark/turtle_draw/install/custom_draw/share/ament_index/resource_index/packages
+copying resource/custom_draw -> /home/omark/turtle_draw/install/custom_draw/share/ament_index/resource_index/packages
+copying package.xml -> /home/omark/turtle_draw/install/custom_draw/share/custom_draw
+running install_egg_info
+Copying ../../build/custom_draw/custom_draw.egg-info to /home/omark/turtle_draw/install/custom_draw/lib/python3.10/site-packages/custom_draw-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/omark/turtle_draw/build/custom_draw/install.log'

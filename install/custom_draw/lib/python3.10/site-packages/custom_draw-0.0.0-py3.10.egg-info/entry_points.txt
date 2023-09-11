@@ -1,0 +1,4 @@
+[console_scripts]
+shape_node = custom_draw.shapeNode:main
+turtle_commander = custom_draw.turtle_commander:main
+

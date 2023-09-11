@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/custom_draw/custom_draw.egg-info/PKG-INFO
+writing dependency_links to ../../build/custom_draw/custom_draw.egg-info/dependency_links.txt
+writing entry points to ../../build/custom_draw/custom_draw.egg-info/entry_points.txt
+writing requirements to ../../build/custom_draw/custom_draw.egg-info/requires.txt
+writing top-level names to ../../build/custom_draw/custom_draw.egg-info/top_level.txt
+reading manifest file '../../build/custom_draw/custom_draw.egg-info/SOURCES.txt'
+writing manifest file '../../build/custom_draw/custom_draw.egg-info/SOURCES.txt'
+running build
+running build_py
+copying custom_draw/shapeNode.py -> /home/omark/turtle_draw/build/custom_draw/build/lib/custom_draw
+running install
+running install_lib
+copying /home/omark/turtle_draw/build/custom_draw/build/lib/custom_draw/shapeNode.py -> /home/omark/turtle_draw/install/custom_draw/lib/python3.10/site-packages/custom_draw
+byte-compiling /home/omark/turtle_draw/install/custom_draw/lib/python3.10/site-packages/custom_draw/shapeNode.py to shapeNode.cpython-310.pyc
+running install_data
+copying package.xml -> /home/omark/turtle_draw/install/custom_draw/share/custom_draw
+running install_egg_info
+removing '/home/omark/turtle_draw/install/custom_draw/lib/python3.10/site-packages/custom_draw-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/custom_draw/custom_draw.egg-info to /home/omark/turtle_draw/install/custom_draw/lib/python3.10/site-packages/custom_draw-0.0.0-py3.10.egg-info
+running install_scripts
+Installing shape_node script to /home/omark/turtle_draw/install/custom_draw/lib/custom_draw
+writing list of installed files to '/home/omark/turtle_draw/build/custom_draw/install.log'
