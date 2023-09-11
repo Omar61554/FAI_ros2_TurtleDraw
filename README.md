@@ -5,8 +5,8 @@
 <p id="description">draw shapes with turtle-sim with a simple GUI</p>
 
 
-<img src="" width="1000" height="1000/">
-<h2>Project Screenshots:</h2>(https://github.com/Omar61554/FAI_ros2_TurtleDraw/assets/114437079/a2067945-fb11-456b-9b7b-f993fc1b28d0)
+<img src="https://github.com/Omar61554/FAI_ros2_TurtleDraw/assets/114437079/a2067945-fb11-456b-9b7b-f993fc1b28d0" width="1000" height="1000/">
+
 
 <h2>🛠️ Steps:</h2>
 
