@@ -6,7 +6,7 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="file:///home/omark/Downloads/Beige%20Minimalist%20Mood%20Photo%20Collage.png" alt="project-screenshot" width="1000" height="1000/">
+<img src="[file:///home/omark/Downloads/Beige%20Minimalist%20Mood%20Photo%20Collage.png" alt="project-screenshot](https://drive.google.com/file/d/1R_U7tYOB7lEbti3FthEdSHFGHFcJuXuQ/view?usp=drive_link)" width="1000" height="1000/">
 
 <h2>🛠️ Steps:</h2>
 
