@@ -21,6 +21,12 @@ ros2 run custom_draw draw.launch.py
 ```
 ros2 run turtlesim turtlesim_node
 ```
+  
+  
+<h2>🧐 Features to be added</h2>
+
+*   Add services to clear path set pen and teleport automatically
+*   add more complex shapes
 
 <h2>Test video💖</h2>
 
