@@ -4,6 +4,8 @@ from geometry_msgs.msg import Twist
 from std_msgs.msg import String
 import math
 import time
+from turtlesim.srv import TeleportAbsolute
+
 
 
 class TurtleCommander(Node):
@@ -18,6 +20,28 @@ class TurtleCommander(Node):
             10
         )
         self.get_logger().info("TurtleCommander has been started")
+
+        self.teleport_abs_ = self.create_client(TeleportAbsolute, "/turtle1/teleport_absolute")
+
+       # while not self.teleport_abs_.wait_for_service(timeout_sec=1.0):
+         #   self.get_logger().warn("Waiting for teleport_absolute service...")
+
+        
+
+    def reset_turtle(self,x,y,th):
+        request = TeleportAbsolute.Request()
+        request.x = x
+        request.y = y
+        request.theta = th
+
+        future = self.teleport_abs_.call_async(request)
+        #rclpy.spin_until_future_complete(self, future)
+
+        if future.result() is not None:
+            self.get_logger().info("Turtle position reset successfully")
+        else:
+            self.get_logger().error("Failed to reset turtle position")    
+    
 
     def shape_callback(self, msg):
         shape = msg.data.lower()
@@ -49,6 +73,9 @@ class TurtleCommander(Node):
 
     def draw_dodecagon(self):
         self.get_logger().info("Drawing dodecagon shape")
+        self.reset_turtle(5.4,1.0,0.0)
+
+        
 
         
         for _ in range(12):
@@ -71,6 +98,7 @@ class TurtleCommander(Node):
     
     def draw_spiral(self):
         self.get_logger().info("Drawing spiral shape")
+        self.reset_turtle(5.4,5.4,0.0)
 
         # Move the turtle to draw a spiral shape
         linear_speed = 1.0
@@ -86,7 +114,7 @@ class TurtleCommander(Node):
 
     def draw_spring(self):
         self.get_logger().info("Drawing spring shape")
-
+        self.reset_turtle(5.4,1.0,0.0)
         # Move the turtle to draw a spring shape
         amplitude = 10.0
         frequency = 1.0
